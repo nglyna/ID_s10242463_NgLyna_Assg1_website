@@ -53,6 +53,10 @@ clothing5:https://www.gentlemanwithin.com/wp-content/uploads/2019/03/Nike-Killsh
 
 clothing6:https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_363,c_limit/38239150-6945-491a-948f-6569b77caee4/running-training-plans.jpg
 
+clothing7:https://static.nike.com/a/images/t_default/179ab923-95fd-403d-86d8-49bd500750a0/sportswear-essentials-t-shirt-K9vnhV.png
+
+clothing8: https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c7d9880b-2447-44e9-ac9f-b054cb7b7fe1/air-max-penny-shoes-S7vvF3.png
+
 Acknowledgements:
 i received inspiration from https://www.nike.com/sg/ the Official Nike Website.
 
