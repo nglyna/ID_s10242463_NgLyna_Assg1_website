@@ -5,9 +5,21 @@ img{
         top:20px;
         left:30px
 }
+.cart-img{
+    text-align: top;
+    position: relative;
+    float:left;
+    height:40px;
+    left:800px;
+    top:0px;
+
+
+}
 div{
     text-align: top;
 }
+
+
 #special{
     text-align: top;
 }
@@ -25,6 +37,9 @@ div{
     position:relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0.6;
+
+    
+    
     
     
 }
@@ -48,6 +63,10 @@ div{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: not-allowed;
     opacity: 0.6;
+
+    
+    
+   
 }
 
 .disable{
@@ -61,11 +80,79 @@ div{
     text-decoration: none;
     background-color: #1F456E;
     font-size:15px;
-    padding: 5px 15px;
+    padding: 7px 15px;
     color: white;
     align-items: right;
     float:right;
     position: relative;
-    right:80px
-    
+    right:80px;
+    border:none;
+    top:15px
   }
+  .login{
+    cursor: not-allowed;
+    background-color: white;
+    align-items: right;
+    border:none;
+    text-decoration: none;
+    float:right;
+    position: relative;
+    right:100px;
+    top: 22px
+  }
+  .cart{
+    cursor: not-allowed;
+    float:right;
+    position: relative;
+    right:90px;
+    text-decoration: none;
+    border:none;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1F456E;
+
+  }
+  .search{
+    float:right;
+    position: relative;
+    /*background-color: white;
+    color:grey;*/
+    
+    right:500px;
+    padding: 5px 100px;
+    border-radius: 15px;
+  }
+  #close-image img {
+    /* padding: 0.5px 5px; */
+    display:block;
+    /* height: 10px;  
+    width: 30px; */
+    top:0px;
+    left:1px;
+    height:29px;
+    
+}
+#close-image{
+    float:right;
+    position: relative;
+    right:120px;
+    vertical-align: middle;
+    height:30px;
+    width:70px;
+    border-radius: 15px;
+    
+    background-color:rgb(201, 188, 188);
+
+}
+#close-image:hover{
+    background-color:#1F456E;
+    border:#1F456E;
+    
+    
+}
+/* #close-CSS {
+    background-image: url ("https://cdn-icons-png.flaticon.com/512/61/61088.png" );
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+} */
