@@ -12,7 +12,7 @@ I Designed the website using mainly white and navy blue to create a simplistic v
 As a customer, i want to be able to easily view and purchase products from the website
 
 As a customer, i want to be able to search products according to the clothing type, colour and sizes.
-link of my Wireframe: https://xd.adobe.com/view/9d7f6378-1356-43cc-b7a4-3309cd512332-c82c/
+link of my Wireframe: https://xd.adobe.com/view/94fc80c4-fd0a-4131-8ab0-c8fef80ce554-c1af/
 
 features:
 Allows users to use the Search Bar to search products using product name.
