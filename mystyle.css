@@ -26,6 +26,8 @@
   height:600px;
   background-size:100% 100%;
   
+  
+  
 }
 #filter{
   height:25px;
@@ -207,6 +209,7 @@ div{
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
   
  
   
@@ -216,6 +219,7 @@ div{
 #container .poster-btn:hover {
   background-color: white;
   color:black;
+  text-decoration: none;
   
 }
 #sizefilter{
