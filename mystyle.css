@@ -5,7 +5,7 @@
         top:40px;
         left:25px
 }
-.cart-img{
+ .cart-img{
     
     position: relative;
     float:left;
@@ -14,7 +14,7 @@
     bottom:38px;
 
 
-}
+} 
 
 .poster-img{
 
@@ -25,7 +25,7 @@
   width:100%;
   height:600px;
   background-size:100% 100%;
-  
+  display:flex
   
   
 }
@@ -122,7 +122,7 @@ div{
     right:100px;
     top: 22px
   }
-  .cart{
+   .cart{
     cursor: not-allowed;
     float:right;
     position: relative;
@@ -133,7 +133,7 @@ div{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#1F456E;
 
-  }
+  } 
   .search{
     float:right;
     position: relative;
@@ -257,9 +257,13 @@ div{
   padding: 5px;
   position:relative;
   bottom: 225px;
-  
+  left:180px
 }
 
+.mainimg{
+  display: flex;
+  float:right;
+} 
 /* Clear floats after image containers */
 .mainimg::after {
   content: "";
@@ -269,6 +273,7 @@ div{
 p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+
 .column:hover{
   width:300px;
   
@@ -315,3 +320,224 @@ input[type=submit]:hover {
   
   resize: vertical;
 }
+/* .carts{
+  cursor: not-allowed;
+    float:right;
+    position: relative;
+    right:90px;
+    text-decoration: none;
+    border:none;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1F456E;
+    height:20%;
+    width:20%
+} */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+ 
+  .men{
+    flex-direction: row;
+    font-size:15px;
+  }
+  .cart{
+    flex-direction: row;
+  }
+  .buttond{
+    flex-direction: row;
+    font-size:15px;
+  }
+  #special{
+    flex-direction: column;
+  }
+
+}
+  @media (max-width: 920px) {
+    .cart{
+      position: relative;
+      right:50px;
+    }
+  }
+    @media (max-width: 790px) {
+      .cart{
+        position: relative;
+        left:5px;
+      }
+    }
+    @media (max-width: 530px) {
+      .cart{
+        flex-direction: row;
+      
+    } 
+  }
+/* ---------------phone----------------------- */
+  @media (max-width: 415px) {
+    .cart{
+        cursor: not-allowed;
+        float:right;
+        position: relative;
+        right:90px;
+        text-decoration: none;
+        border:none;
+        background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#1F456E;
+    
+      
+    }
+      .buttond{
+        padding: 10px 7px;
+        font-size: 16px;
+        text-align:end;
+        left:32px;
+        
+      }
+      .men{
+        left:16px;
+      }
+      .poster-img{
+
+        width:125%;
+        height:300px;
+        /* background-size:100% 100%; */
+        display:flex
+    }
+    .login{
+      cursor: not-allowed;
+      background-color: white;
+      align-items: right;
+      border:none;
+      text-decoration: none;
+      float:right;
+      position: relative;
+      left:40px;
+      top: 20px
+    }
+    .disable2{
+      cursor: not-allowed;
+      border-radius: 15px;
+      text-decoration: none;
+      background-color: #1F456E;
+      font-size:13px;
+      padding: 5px 10px;
+      color: white; 
+      align-items: right;
+      float:right;
+      position: relative;
+      left:50px;
+      border:none;
+      top:15px
+    }
+    .search{
+      float:right;
+      position: relative;
+      /*background-color: white;
+      color:grey;*/
+      
+      right:500px;
+      padding: 5px 100px;
+      border-radius: 15px;
+    }
+    #search-image img {
+      /* padding: 0.5px 5px; */
+      display:block;
+      /* height: 10px;  
+      width: 30px; */
+      top:0px;
+      left:1px; 
+      height:30px;
+      width:47px;
+      
+      
+  }
+  #search-image{
+      float:right;
+      position: relative;
+      left:40px;
+      vertical-align: middle;
+      height:30px;
+      width:70px;
+      border-radius: 15px;
+      top:55PX;
+      
+      background-color:rgb(201, 188, 188);
+  
+  }
+  .nike-img{
+    width: 60px;
+    text-align:center;
+    position: relative;
+    top:5px;
+    left:50%
+  }
+  #sizefilter{
+    display:none
+  }
+  #colorfilter{
+    display:none
+  }
+  #pricefilter{
+    display:none
+    
+  }
+  #fitfilter{
+    display:none
+   
+  }
+  #filter{
+    display:none
+  }
+  #container .poster-btn {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:rgb(51, 48, 48);
+  color: white;
+  font-size: 13px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  }
+  .img-text{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    font-size:15px;
+  }
+  .column {
+   
+    width: 100%;
+    padding: 10px;
+    
+    
+    
+  }
+  
+.mainimg{
+  display: flex;
+  
+  flex-wrap: wrap;
+  /* float:inline-start; */
+  flex-direction: column;
+  position:relative;
+  right:120px;
+  
+}  
+input[type=submit] {
+  display:none;
+  
+}
+
+.txt{
+display:none;
+
+  
+}
+  }
+ 
