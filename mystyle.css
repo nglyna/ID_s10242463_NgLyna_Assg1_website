@@ -51,7 +51,7 @@ div{
     background-color:white; /* Green */
     
     color: #1F456E;
-    padding: 10px 15px;
+    padding: 10px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -388,18 +388,18 @@ input[type=submit]:hover {
       
     }
       .buttond{
-        padding: 10px 7px;
+        padding: 10px 6px;
         font-size: 16px;
         text-align:end;
         left:32px;
         
       }
       .men{
-        left:16px;
+        left:13px;
       }
       .poster-img{
 
-        width:125%;
+        width:110%;
         height:300px;
         /* background-size:100% 100%; */
         display:flex
@@ -412,7 +412,7 @@ input[type=submit]:hover {
       text-decoration: none;
       float:right;
       position: relative;
-      left:40px;
+      left:-10px;
       top: 20px
     }
     .disable2{
@@ -426,20 +426,19 @@ input[type=submit]:hover {
       align-items: right;
       float:right;
       position: relative;
-      left:50px;
+      left:0px;
       border:none;
       top:15px
     }
-    .search{
+    /* .search{
       float:right;
       position: relative;
-      /*background-color: white;
-      color:grey;*/
+     
       
-      right:500px;
+      right:400px;
       padding: 5px 100px;
       border-radius: 15px;
-    }
+    } */
     #search-image img {
       /* padding: 0.5px 5px; */
       display:block;
@@ -455,7 +454,7 @@ input[type=submit]:hover {
   #search-image{
       float:right;
       position: relative;
-      left:40px;
+      left:0px;
       vertical-align: middle;
       height:30px;
       width:70px;

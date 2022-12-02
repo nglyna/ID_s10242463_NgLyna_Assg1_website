@@ -49,11 +49,14 @@
     /* width:100%;
     height:400px; */
     width:100%;
-    height:350px;
+    height:550px;
     background-size:100% 100%;
     background-color:#1F456E;
     z-index: -1;
     
+   
+  position: relative;
+  margin: auto;
   }
 .hot{
     position:absolute;
@@ -61,26 +64,28 @@
     color:white;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top:70px;
+    top:-8px;
     
 }
 .hotimg{
     width:35px;
     position:absolute;
     left:185px;
-    top:90px
+    top:10px
 }
 .posterimg{
-    width:33.33%;
-    height:240px;
-    position:relative;  /*image side by side*/
-    top:20%;
+    width:100%;
+    height:100%;
+    position:absolute;  /*image side by side*/
+    
     float:right;
+  z-index: -1;
+    /* display:none; */
     
 }
-.posterimg:hover{
+/* .posterimg:hover{
     width:33%
-}
+} */
 /* ----------- */
 
 .column {
@@ -152,6 +157,51 @@
   #topnav2{
     display:none
   }
+  #cat2{
+    display:none;
+  }
+
+/* ----------------- */
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
 /* ------------------------------------- */
   @media (max-width:  415px) {
   .nike-img2{
@@ -179,7 +229,7 @@
     
   }
   .topnav{
-    height:100px
+    height:100px;
   }
   .topnav2{
     overflow: hidden;
@@ -213,7 +263,7 @@
     height:450px; */
     /* width:100%;
     height:400px; */
-    width:130%;
+    width:110%;
     height:300px;
     background-size:100% 100%;
     background-color:#1F456E;
@@ -224,24 +274,28 @@
   }
 .hot{
     position:absolute;
-    left:35px;
+    left:30%;
     color:white;
+
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top:1px;
+    top:-25px;
+    /* background-color: grey; */
     
 }
 .hotimg{
     width:35px;
     position:absolute;
-    left:185px;
-    top:90px
+    left:175px;
+    top:0px;
+    
+    display:none
 }
 .posterimg{
-    width:33.33%;
-    height:240px;
-    position:relative;  /*image side by side*/
-    top:20%;
+    width:100%;
+    height:300px;
+    position:absolute;  /*image side by side*/
+    
     float:right;
     
 }
@@ -267,4 +321,96 @@
   #cat{
     display:none
   }
+  /* -----------products------------ */
+  .column {
+    /* float: right;
+    width: 20%;
+    padding: 5px;
+    position:relative;
+    bottom:-30px; */
+
+    width:45%;
+    flex-direction:row;
+    position:relative;
+    top:70px;
+    left:10%;
+    
+  }
+  .mainimg{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  /* Clear floats after image containers */
+  .mainimg::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column2 {
+    /* float: right;
+    width: 20%;
+    padding: 5px;
+    position:relative;
+    bottom:-30px; */
+
+    width:45%;
+    flex-direction:row;
+    position:relative;
+    top:70px;
+    left:10%;
+    
+  }
+  .mainimg2{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  /* Clear floats after image containers */
+  .mainimg2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .column:hover{
+    display:none;
+  }
+/* ---------------------------------------- */
+
+
+ /*  ---------java-------- */
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot {
+   display:none
+  }
+  
+  .active:hover {
+    background-color: #717171;
+    
+  }
+  /* ----------------------- */
 }
