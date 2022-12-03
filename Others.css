@@ -34,6 +34,13 @@
     box-shadow: 0 5px #666;
 
   }
+  .topnav a.active2 {
+    background-color:white;
+    color:#1F456E;
+    opacity: 0.6;
+    /* box-shadow: 0 5px #666; */
+
+  }
   .nike-img2{
     width: 60px;
     text-align: top;
@@ -68,7 +75,7 @@
 
 
   .column:hover{
-    width:310px;
+    width:21%;
 
     color:#1F456E;
   }
@@ -96,6 +103,7 @@
     float:left;
     left:30px;
     position:relative;
+    
   }
 
 
@@ -119,7 +127,7 @@
 
 
   .column2:hover{
-    width:310px;
+    width:21%;
 
     color:#1F456E;
   }
@@ -138,15 +146,18 @@
   #cat2{
     display: none;
   }
+  #cat2c{
+    display:none;
+  }
 
   /* ------java----------------- */
-  @media (max-width:  415px) {
+  @media (max-width:  426px) {
     .nike-img2{
       width: 60px;
       text-align:center;
       position: relative;
       top:5px;
-      left:50%
+      left:40%
     }
 
   .inactive{
@@ -212,20 +223,32 @@
       
 
     }
+    #cat2c{
+      position: relative;
+      top:10px;
+       display:contents;
+      
+
+      color:rgb(123, 159, 193);
+      text-align: center;
+      padding: 17px 4.6px;
+      text-decoration: none;
+      font-size: 14px;
+      width: 14%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+      
+
+    }
     /* ------end of heading---------- */
 
     .column {
-      /* float: right;
-      width: 20%;
-      padding: 5px;
-      position:relative;
-      bottom:-30px; */
 
       width:45%;
       flex-direction:row;
       position:relative;
       top:70px;
-      left:10%;
+      left:5%;
 
     }
     .mainimg{
@@ -254,17 +277,12 @@
   display:none;
 }
 .column2 {
-  /* float: right;
-  width: 20%;
-  padding: 5px;
-  position:relative;
-  bottom:-30px; */
 
   width:45%;
   flex-direction:row;
   position:relative;
-  top:70px;
-  left:10%;
+  top:70px; 
+  left:5%;
   
 }
 .mainimg2{
@@ -277,4 +295,164 @@
   clear: both;
   display: table;
 }
+.column:hover{
+  display:none;
+}
+.column2:hover{
+  display:none;
+}
+  }
+   /* @media (max-width:  1025px)
+  {
+    
+    .column {
+   
+      width:20%;
+      flex-direction:row;
+      position:relative;
+      top:70px;
+      left:3%;
+
+    }
+    .column2 {
+     
+    
+      width:20%;
+      flex-direction:row;
+      position:relative;
+      top:100px;
+      left:8%;
+      
+    }
+    .column:hover{
+      display:none;
+    }
+    .column2:hover{
+      display:none;
+    }
+    /* #cat{
+      position: relative;
+      top:-400px;
+      font-size: 30px;
+    }
+    #subcat{
+      position: relative;
+      top:-400px;
+      font-size: 20px;
+    }
+    #cat-click{
+      position: relative;
+      top:-400px;
+      font-size: 30px;
+    }
+    #subcat-click{
+      position: relative;
+      top:-400px;
+      font-size: 20px;
+    }
+    .side-filter{
+      height:1000px
+    } 
+  }  */
+  @media (min-width:  2559px) {
+
+    .column2 {
+      float:left;
+      width: 20%;
+      padding: 5px;
+      position:relative;
+      left:350px;
+      bottom:-30px;
+      
+    }
+    .posterimg{
+      width:100%;
+      height:150%;
+      position:absolute;  /*image side by side*/
+      
+      float:right;
+    z-index: -1;
+      /* display:none; */
+      
+  }
+  .column {
+      float: right;
+      width: 20%;
+      padding: 5px;
+      position:relative;
+      /* bottom:-30px; */
+      top:330px;
+      
+    }
+  
+    .column2 {
+      float:left;
+      width: 20%;
+      padding: 5px;
+      position:relative;
+      left:200px;
+      /* bottom:-70px; */
+      top:400px
+      
+    } 
+    #cat{
+      font-size: 50px;
+      color: #1F456E;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      position: relative;
+      /* top:280px */
+    }
+    #subcat{
+      color: #1F456E;
+    font-size: 40px;
+    position: relative;
+    /* top:280px */
+    }
+    #cat-click{
+      font-size: 50px;
+      color: #1F456E;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      opacity: 0.5;
+  
+    }
+    #subcat-click{
+      color: #1F456E;
+      opacity: 0.5;
+      font-size: 40px;
+    }
+  
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 30%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 40px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+  
+    .dot {
+     display:none
+    }
+    
+    .active:hover {
+      background-color: #717171;
+      
+    }
+  
   }
