@@ -551,6 +551,10 @@
     float:right;
     
 }
+.next {
+  right: -100px;
+  border-radius: 3px 0 0 3px;
+}
   }
 
   @media (min-width:1023px) and (max-width:1024px) {
@@ -579,7 +583,7 @@
       height:450px; */
       /* width:100%;
       height:400px; */
-      width:130%;
+      width:120%;
       height:500px;
       background-size:100% 100%;
       background-color:#1F456E;
@@ -603,7 +607,7 @@
       user-select: none;
     }
     .next {
-      right: -298px;
+      right: -200px;
       border-radius: 3px 0 0 3px;
     }
     #cat{
